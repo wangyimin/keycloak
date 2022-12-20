@@ -1,0 +1,11 @@
+1. Create Realm
+2. Create Client
+  2.1. Client ID⇒任意
+  2.2. Valid redirect URIs⇒http://localhost/docs/*
+  2.3. Admin URL⇒http://localhost/
+  2.4. Client authentication⇒ON
+  2.5. Service accounts roles⇒チェックオン
+  2.6. Client Scopes→myclient-dedicated→Add mapper(Attributes...)
+  2.7. Service accounts roles→Assign role(3. Realm roles)
+3. Realm roles→Create role⇒admin、user(defined by tomcat)
+4. Users→Add user⇒任意
